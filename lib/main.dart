@@ -24,9 +24,21 @@ class MyApp extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 40.0,
                   color: Colors.white,
-                  fontWeight: FontWeight.bold
+                  fontWeight: FontWeight.bold,
+                  fontFamily: 'Pacifico'
                 ),
-              )
+              ),
+              Text(
+                'DEVELOPER',
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                    fontSize: 20.0,
+                    letterSpacing: 2.5,
+                    color: Colors.teal.shade100,
+                    fontWeight: FontWeight.bold,
+                    fontFamily: 'Source Sans Pro'
+                ),
+              ),
             ],
           ),
         ),
